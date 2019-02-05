@@ -7,6 +7,7 @@ public class Behaviours : MonoBehaviour
 {
     public UnityEvent OnAwake, OnStart, MouseDown, MouseEnter, MouseExit, TriggerEnter, CollisionEnter, DestroyEvent;
     
+    
     void Awake()
     {
         OnAwake.Invoke();
@@ -46,7 +47,4 @@ public class Behaviours : MonoBehaviour
     {
         DestroyEvent.Invoke();
     }
-
-   
-
 }

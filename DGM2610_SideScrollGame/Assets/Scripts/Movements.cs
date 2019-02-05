@@ -13,4 +13,5 @@ public class Movements : MonoBehaviour
     {
         Rigidbody.AddForce(ForwardThrust.value, JumpHeight.value * Time.deltaTime, 0F, ForceMode.Impulse);
     }
+
 }

@@ -9,7 +9,7 @@ public class Knockback : MonoBehaviour
 
     public FloatData Thrust;
     
-    public void OnTriggerEnter(Collider other)
+    public void ThrowObject()
     {
         Rigidbody.AddForce(Thrust.value, 0F, 0F, ForceMode.Impulse);
     }

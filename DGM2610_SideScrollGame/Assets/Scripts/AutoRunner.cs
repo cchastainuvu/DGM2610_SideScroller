@@ -12,5 +12,4 @@ public class AutoRunner : MonoBehaviour
     {
         transform.Translate(HorizontalSpeed.value * Time.deltaTime, 0F, 0F);
     }
-
 }

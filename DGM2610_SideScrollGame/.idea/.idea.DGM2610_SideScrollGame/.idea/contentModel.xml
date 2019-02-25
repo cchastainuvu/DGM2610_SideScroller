@@ -3,15 +3,13 @@
   <component name="ContentModelStore">
     <e p="C:\Users\calys\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_DGM2610_SideScrollGame.1751217062.00" t="ExcludeRecursive" />
     <e p="E:\Documents\Github\2019_Repositories\DGM2610_SideScroller\DGM2610_SideScrollGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AutoRunner.cs" t="Include" />
           <e p="EventInvokes" t="Include">
             <e p="Behaviours.cs" t="Include" />
-            <e p="MouseClickEvent.cs" t="Include" />
-            <e p="StartEvent.cs" t="Include" />
-            <e p="TriggerEnterEvent.cs" t="Include" />
           </e>
           <e p="ID" t="Include">
             <e p="NameID.cs" t="Include" />
@@ -20,8 +18,47 @@
           </e>
           <e p="Knockback.cs" t="Include" />
           <e p="Movements.cs" t="Include" />
+          <e p="MyTools" t="Include">
+            <e p="MoveAutomatic.cs" t="Include" />
+          </e>
           <e p="ScriptableObjects" t="Include">
             <e p="FloatData.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="Environment" t="Include">
+            <e p="Water" t="Include">
+              <e p="Water" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Displace.cs" t="Include" />
+                  <e p="GerstnerDisplace.cs" t="Include" />
+                  <e p="MeshContainer.cs" t="Include" />
+                  <e p="PlanarReflection.cs" t="Include" />
+                  <e p="SpecularLighting.cs" t="Include" />
+                  <e p="Water.cs" t="Include" />
+                  <e p="WaterBase.cs" t="Include" />
+                  <e p="WaterTile.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="FXWaterPro.shader" t="Include" />
+                </e>
+              </e>
+              <e p="Water4" t="Include">
+                <e p="Shaders" t="Include">
+                  <e p="FXWater4Advanced.shader" t="Include" />
+                  <e p="FXWater4Simple.shader" t="Include" />
+                  <e p="WaterInclude.cginc" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Water (Basic)" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="WaterBasic.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="FXWaterBasic.shader" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
       </e>

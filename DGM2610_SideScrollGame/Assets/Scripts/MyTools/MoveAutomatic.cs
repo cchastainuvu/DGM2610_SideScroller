@@ -1,16 +1,62 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveAutomatic : MonoBehaviour {
+//References: Tools provided in lesson.
+//15 minutes of work/troubleshooting.
+[RequireComponent(typeof(Rigidbody))]
+public class MoveAutomatic : MonoBehaviour
+{
+    private CharacterController _cc;
+    private Vector3 _pos, _moveDirection;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public bool CanRun {get; set;}
+    private WaitForFixedUpdate _fixed;
+
+    public FloatData MoveSpeed, Gravity, JumpHeight,ForwardThrust;
+    
+    
+    public void Start()
+    {
+        _cc = GetComponent<CharacterController>();
+    }
+
+    private IEnumerator RunCoroutine()
+    {
+        _fixed = new WaitForFixedUpdate();
+        yield return _fixed;
+        
+        while (CanRun)
+        {
+            yield return _fixed;
+            
+            _pos.x = MoveSpeed.value * Time.deltaTime;
+            _pos.y = Gravity.value * Time.deltaTime;
+            _cc.Move(_pos);
+        }
+    }
+    
+    public void BeginMoving()
+    {
+        CanRun = true;
+        StartCoroutine(RunCoroutine());
+    }
+
+    public void StopMoving()
+    {
+        CanRun = false;
+        StopCoroutine(RunCoroutine());
+    }
+
+
+//    public void Jump()
+//    {
+//        if (_cc.isGrounded)
+//        {
+//             _moveDirection.y = JumpHeight.value;
+//            _moveDirection.x = ForwardThrust.value;
+//        }
+//
+//        _cc.Move(_moveDirection * Time.deltaTime);
+//
+//    }
 }

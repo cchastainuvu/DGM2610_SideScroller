@@ -99,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyTools/MoveAutomatic.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+              <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
               <folding>
                 <marker date="1551128918379" expanded="true" signature="6:44" ph="..." />
                 <marker date="1551128918379" expanded="true" signature="46:123" ph="/* References: Tools provided in lesson. ... */" />
@@ -138,6 +138,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ID/SpecifiedTriggerID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventInvokes/Behaviours.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ID/NameID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyTools/MoveAutomatic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AutoRunner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -171,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="y" value="10" />
     <option name="width" value="975" />
@@ -234,12 +235,12 @@
       <workItem from="1548880288149" duration="15396000" />
       <workItem from="1548904002845" duration="2747000" />
       <workItem from="1549336159693" duration="1293000" />
-      <workItem from="1551126194939" duration="2951000" />
+      <workItem from="1551126194939" duration="3844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22387000" />
+    <option name="totallyTimeSpent" value="23280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,10 +696,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1531393959000" expanded="false" signature="6:32" ph="..." />
+            <marker date="1531393959000" expanded="true" signature="69:903" ph="{...}" />
+            <marker date="1531393959000" expanded="true" signature="139:901" ph="{...}" />
+            <marker date="1531393959000" expanded="true" signature="167:895" ph="{...}" />
+            <marker date="1531393959000" expanded="true" signature="248:300" ph="{...}" />
+            <marker date="1531393959000" expanded="true" signature="367:419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyTools/MoveAutomatic.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
           <folding>
             <marker date="1551128918379" expanded="true" signature="6:44" ph="..." />
             <marker date="1551128918379" expanded="true" signature="46:123" ph="/* References: Tools provided in lesson. ... */" />

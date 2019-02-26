@@ -1,18 +1,18 @@
 ﻿using System.Collections;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 //References: Tools provided in lesson.
 //15 minutes of work/troubleshooting.
-[RequireComponent(typeof(Rigidbody))]
 public class MoveAutomatic : MonoBehaviour
 {
     private CharacterController _cc;
-    private Vector3 _pos, _moveDirection;
+    private Vector3 _pos;
 
     public bool CanRun {get; set;}
     private WaitForFixedUpdate _fixed;
 
-    public FloatData MoveSpeed, Gravity, JumpHeight,ForwardThrust;
+    public FloatData MoveSpeed, Gravity;
     
     
     public void Start()
@@ -52,11 +52,12 @@ public class MoveAutomatic : MonoBehaviour
 //    {
 //        if (_cc.isGrounded)
 //        {
-//             _moveDirection.y = JumpHeight.value;
-//            _moveDirection.x = ForwardThrust.value;
+//             _pos.y = JumpHeight.value;
+//            _pos.x = ForwardThrust.value;
 //        }
 //
-//        _cc.Move(_moveDirection * Time.deltaTime);
+//        _cc.Move(_pos * Time.deltaTime);
 //
 //    }
+    
 }

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33890097612337548}
   - component: {fileID: 23892624163136550}
   - component: {fileID: 65223836192562670}
+  - component: {fileID: 65185061892776438}
   m_Layer: 0
   m_Name: Stalagmite
   m_TagString: Untagged
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915332594679678}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
-  m_LocalPosition: {x: 11.77, y: -8.6, z: 23.550001}
+  m_LocalPosition: {x: 11.77, y: -8.6, z: 21.400002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,6 +85,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915332594679678}
   m_Mesh: {fileID: 4300000, guid: e4930d503e21a934c9cc97295b1485c4, type: 3}
+--- !u!65 &65185061892776438
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915332594679678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0615768, y: 3.4770708, z: 1.2101548}
+  m_Center: {x: -0.07854128, y: -0.00000011920929, z: 0.047634393}
 --- !u!65 &65223836192562670
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -94,5 +107,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0615768, y: 3.4770708, z: 4.4209213}
-  m_Center: {x: -0.07854128, y: -0.00000011920929, z: -1.1745517}
+  m_Size: {x: 2.0615768, y: 2.506586, z: 4.4209213}
+  m_Center: {x: -0.07854128, y: -0.48524237, z: -1.1745517}

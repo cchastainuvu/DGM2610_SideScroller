@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 23892624163136550}
   - component: {fileID: 65223836192562670}
   - component: {fileID: 65185061892776438}
+  - component: {fileID: 114806742341628062}
+  - component: {fileID: 114329941720504390}
   m_Layer: 0
   m_Name: Stalagmite
   m_TagString: Untagged
@@ -37,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915332594679678}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
-  m_LocalPosition: {x: 11.77, y: -8.6, z: 21.400002}
+  m_LocalPosition: {x: -34.938347, y: 1.1393051, z: -1.1819267}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -92,11 +94,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915332594679678}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0615768, y: 3.4770708, z: 1.2101548}
-  m_Center: {x: -0.07854128, y: -0.00000011920929, z: 0.047634393}
+  m_Size: {x: 2.0615768, y: 2.9679708, z: 1.2101548}
+  m_Center: {x: -0.07854128, y: -0.25454998, z: 0.047634363}
 --- !u!65 &65223836192562670
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -104,8 +106,48 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915332594679678}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.0615768, y: 2.506586, z: 4.4209213}
   m_Center: {x: -0.07854128, y: -0.48524237, z: -1.1745517}
+--- !u!114 &114329941720504390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915332594679678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92eca19c6b71ec45b18b0ce2ce034a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: {fileID: 11400000, guid: 694b5ac26b522184c8b545ce0c3cb09e, type: 2}
+--- !u!114 &114806742341628062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915332594679678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60581f43444c34142992f17b7e119cac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpecifiedID: {fileID: 11400000, guid: 58701720c7418be47b8150d6a2a30960, type: 2}
+  OnMatch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1915332594679678}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AutoRunner.cs" t="Include" />
+          <e p="CameraControls.cs" t="Include" />
           <e p="EventInvokes" t="Include">
             <e p="Behaviours.cs" t="Include" />
           </e>

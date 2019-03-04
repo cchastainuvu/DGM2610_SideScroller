@@ -46,18 +46,5 @@ public class MoveAutomatic : MonoBehaviour
         CanRun = false;
         StopCoroutine(RunCoroutine());
     }
-
-
-//    public void Jump()
-//    {
-//        if (_cc.isGrounded)
-//        {
-//             _pos.y = JumpHeight.value;
-//            _pos.x = ForwardThrust.value;
-//        }
-//
-//        _cc.Move(_pos * Time.deltaTime);
-//
-//    }
     
 }

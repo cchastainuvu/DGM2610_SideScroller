@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Behaviours : MonoBehaviour
 {
-    public UnityEvent OnAwake, OnStart, MouseDown, MouseEnter, MouseExit, TriggerEnter, CollisionEnter, DestroyEvent;
+    public UnityEvent OnAwake, OnStart, MouseDown, MouseEnter, MouseExit, TriggerEnter, TriggerExit, CollisionEnter, DestroyEvent;
     
     
     void Awake()
@@ -38,6 +38,11 @@ public class Behaviours : MonoBehaviour
         TriggerEnter.Invoke();
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        TriggerExit.Invoke();
+    }
+
     private void OnCollisionEnter(Collision other)
     {
         CollisionEnter.Invoke();
@@ -47,4 +52,5 @@ public class Behaviours : MonoBehaviour
     {
         DestroyEvent.Invoke();
     }
+
 }

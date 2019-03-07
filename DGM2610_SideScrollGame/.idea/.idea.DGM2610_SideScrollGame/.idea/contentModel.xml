@@ -8,7 +8,6 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AutoRunner.cs" t="Include" />
-          <e p="CameraControls.cs" t="Include" />
           <e p="EventInvokes" t="Include">
             <e p="Behaviours.cs" t="Include" />
           </e>
@@ -18,12 +17,18 @@
             <e p="SpecifiedTriggerID.cs" t="Include" />
           </e>
           <e p="Knockback.cs" t="Include" />
-          <e p="Movements.cs" t="Include" />
           <e p="MyTools" t="Include">
+            <e p="CC" t="Include">
+              <e p="CharacterMove.cs" t="Include" />
+              <e p="MovePattern.cs" t="Include" />
+              <e p="MovePatternNotGrounded.cs" t="Include" />
+            </e>
             <e p="MoveAutomatic.cs" t="Include" />
           </e>
+          <e p="RigidbodyJump.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="FloatData.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
           </e>
         </e>
         <e p="Standard Assets" t="Include">

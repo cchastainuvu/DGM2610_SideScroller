@@ -8,7 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c239e4f3309ce7744bcfca5a04056dae, type: 3}
-  m_Name: 6
+  m_Script: {fileID: 11500000, guid: 2ce8fd7b75dc7cb4ca970a6f15af3691, type: 3}
+  m_Name: 10M
   m_EditorClassIdentifier: 
-  value: 7
+  value: 10
+  InputType: Fire1

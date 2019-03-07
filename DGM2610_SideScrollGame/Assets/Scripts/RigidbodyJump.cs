@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Movements : MonoBehaviour
+public class RigidbodyJump : MonoBehaviour
 {
     public Rigidbody Rigidbody;
     
@@ -12,6 +12,7 @@ public class Movements : MonoBehaviour
     public void Jump()
     {
         Rigidbody.AddForce(ForwardThrust.value, JumpHeight.value * Time.deltaTime, 0F, ForceMode.Impulse);
+        print("working...");
     }
 
 }

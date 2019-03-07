@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341ce546514786d4b8229d360474280c, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  Gravity: {fileID: 11400000, guid: 21552f744f3504740af66a3bac36a78f, type: 2}
+  MoveX: {fileID: 11400000, guid: 0d8f721aaf008ba4faf96495014ed53a, type: 2}
+  MoveY: {fileID: 11400000, guid: d1914d1c0f77377458b3251b71137bed, type: 2}
+  MoveZ: {fileID: 11400000, guid: 548c6b7534767da419b5ecba513947aa, type: 2}
+  Jump: {fileID: 11400000, guid: 67e3495ce4ea54a4cb1d1e9eb14bc052, type: 2}
+  RotX: {fileID: 11400000, guid: 548c6b7534767da419b5ecba513947aa, type: 2}
+  RotY: {fileID: 11400000, guid: 548c6b7534767da419b5ecba513947aa, type: 2}
+  RotZ: {fileID: 11400000, guid: 548c6b7534767da419b5ecba513947aa, type: 2}

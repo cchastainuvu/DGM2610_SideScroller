@@ -7,7 +7,7 @@ using UnityEngine;
 public class MovePattern : ScriptableObject
 {
     public FloatData Gravity;
-    public FloatData MoveX, MoveY, MoveZ, Jump;
+    public FloatData MoveX, MoveY, MoveZ;
     public FloatData RotX, RotY, RotZ;
 
     private Vector3 _moveDirection;
@@ -19,8 +19,9 @@ public class MovePattern : ScriptableObject
         {
             Move(transform);
         }
-
-        Move(controller);
+            
+        Move(controller); 
+       
     }
 
     protected void Move(CharacterController controller)

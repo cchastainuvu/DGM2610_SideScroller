@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharaController : MonoBehaviour
 {
+    
     private CharacterController _cc;
     private Vector3 _pos;
 
@@ -13,6 +14,8 @@ public class CharaController : MonoBehaviour
     
     public FloatData MoveSpeed, JumpHeight, Gravity;
 
+    public NameID SpecifiedID;
+
     private void Start()
     {
         _cc = GetComponent<CharacterController>();
@@ -20,29 +23,21 @@ public class CharaController : MonoBehaviour
     }
 
     private void Update()
+    {  
+         _pos.y -= Gravity.value * Time.deltaTime;
+         _pos.x = MoveSpeed.value * Time.deltaTime;
+         _cc.Move(_pos);
+    }
+
+    public void Jump()
     {
         if (_cc.isGrounded)
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                if (Physics.Raycast(_ray, out _hit))
-                {
-                    _pos.y = JumpHeight.value * Time.deltaTime;
-//                  _pos.x = MoveSpeed.value * Time.deltaTime;
-                    _cc.Move(_pos);
-                }
-                
-            }
+                print("I'm working...");
+                _pos.y = JumpHeight.value * Time.deltaTime;
+                _cc.Move(_pos);
         }
-        
-        else
-        {
-            _pos.y -= Gravity.value * Time.deltaTime;
-           
-        }
-        
-         _pos.x = MoveSpeed.value * Time.deltaTime;
-        _cc.Move(_pos);
-    }
+     }
 }
+
 

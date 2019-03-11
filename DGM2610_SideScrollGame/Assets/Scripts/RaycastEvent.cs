@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class RaycastTest : MonoBehaviour
+public class RaycastEvent : MonoBehaviour
 {
     private Ray _ray;
     private RaycastHit _hit;
+
+    public UnityEvent Event;
 
     void Update()
     {
@@ -15,7 +18,11 @@ public class RaycastTest : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                print(_hit.collider.name);
+                if (_hit.collider.tag == "Player")
+                {
+                    print(_hit.collider.name);
+                    Event.Invoke(); 
+                }
             }
         }
     }

@@ -14,8 +14,6 @@ public class CharaController : MonoBehaviour
     
     public FloatData MoveSpeed, JumpHeight, Gravity;
 
-    public NameID SpecifiedID;
-
     private void Start()
     {
         _cc = GetComponent<CharacterController>();

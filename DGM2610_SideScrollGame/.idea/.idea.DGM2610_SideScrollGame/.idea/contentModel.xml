@@ -15,7 +15,6 @@
           <e p="ID" t="Include">
             <e p="NameID.cs" t="Include" />
             <e p="ObjectID.cs" t="Include" />
-            <e p="SpecifiedTriggerID.cs" t="Include" />
           </e>
           <e p="Knockback.cs" t="Include" />
           <e p="MyTools" t="Include">
@@ -26,12 +25,13 @@
             </e>
             <e p="MoveAutomatic.cs" t="Include" />
           </e>
-          <e p="RaycastEvent.cs" t="Include" />
+          <e p="PlayerRaycastEvent.cs" t="Include" />
           <e p="RigidbodyJump.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
           </e>
+          <e p="TriggerIDEvents.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
           <e p="Environment" t="Include">

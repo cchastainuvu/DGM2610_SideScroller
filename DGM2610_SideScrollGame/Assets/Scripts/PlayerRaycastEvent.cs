@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class RaycastEvent : MonoBehaviour
+public class PlayerRaycastEvent : MonoBehaviour
 {
     private Ray _ray;
     private RaycastHit _hit;

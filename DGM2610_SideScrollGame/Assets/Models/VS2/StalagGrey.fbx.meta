@@ -1,56 +1,20 @@
 fileFormatVersion: 2
-guid: 0958dc5d00eed0d46bd61b1455efb297
+guid: 3d271352e0c32334793b301415a72134
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: bicep_geo
-    100004: body_geo
-    100006: calf_geo
-    100008: foot_geo
-    100010: forearm_geo
-    100012: Geometry
-    100014: hand_geo
-    100016: head_geo
-    100018: thigh_geo
     400000: //RootNode
-    400002: bicep_geo
-    400004: body_geo
-    400006: calf_geo
-    400008: foot_geo
-    400010: forearm_geo
-    400012: Geometry
-    400014: hand_geo
-    400016: head_geo
-    400018: thigh_geo
-    2100000: lambert1
-    2300000: bicep_geo
-    2300002: body_geo
-    2300004: calf_geo
-    2300006: foot_geo
-    2300008: forearm_geo
-    2300010: hand_geo
-    2300012: head_geo
-    2300014: thigh_geo
-    3300000: bicep_geo
-    3300002: body_geo
-    3300004: calf_geo
-    3300006: foot_geo
-    3300008: forearm_geo
-    3300010: hand_geo
-    3300012: head_geo
-    3300014: thigh_geo
-    4300000: head_geo
-    4300002: body_geo
-    4300004: bicep_geo
-    4300006: forearm_geo
-    4300008: hand_geo
-    4300010: thigh_geo
-    4300012: calf_geo
-    4300014: foot_geo
-    7400000: Take 001
-    9500000: //RootNode
-  externalObjects: {}
+    2100000: Stalag_MAT
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCylinder3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stalag_MAT
+    second: {fileID: 2100000, guid: 7115c9bce77c1644190daf79e57fa7ce, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -125,7 +89,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

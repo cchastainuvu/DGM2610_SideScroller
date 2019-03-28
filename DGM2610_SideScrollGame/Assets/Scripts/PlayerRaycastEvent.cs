@@ -8,7 +8,7 @@ public class PlayerRaycastEvent : MonoBehaviour
     private Ray _ray;
     private RaycastHit _hit;
 
-    public UnityEvent Event;
+    public UnityEvent Event, RightEvent, ResetEvent;
 
     void Update()
     {
@@ -24,6 +24,19 @@ public class PlayerRaycastEvent : MonoBehaviour
                     Event.Invoke(); 
                 }
             }
+            
+            else if (Input.GetMouseButtonDown(1))
+            {
+                if (_hit.collider.tag == "Player")
+                {
+                    RightEvent.Invoke();
+                }
+            } 
+        }
+
+        if (Input.GetMouseButtonUp(1))
+        {
+            ResetEvent.Invoke();
         }
     }
 

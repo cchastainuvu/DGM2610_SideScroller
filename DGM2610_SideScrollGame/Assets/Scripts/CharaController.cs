@@ -20,10 +20,11 @@ public class CharaController : MonoBehaviour
         _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {  
          _pos.y -= Gravity.value * Time.deltaTime;
          _pos.x = MoveSpeed.value * Time.deltaTime;
+//       _pos.z = 0F;
          _cc.Move(_pos);
     }
 
@@ -36,6 +37,16 @@ public class CharaController : MonoBehaviour
                 _cc.Move(_pos);
         }
      }
+
+    public void Crouch()
+    {
+        transform.localScale = new Vector3(1F, 0.5F, 1F);
+    }
+
+    public void ResetScale()
+    {
+        transform.localScale = new Vector3(1F, 1F, 1F);
+    }
 }
 
 

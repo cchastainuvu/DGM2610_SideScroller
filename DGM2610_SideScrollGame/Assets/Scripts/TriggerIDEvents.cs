@@ -16,7 +16,6 @@ public class TriggerIDEvents : MonoBehaviour
         }
     }
 
-
     private void OnTriggerExit(Collider obj)
     {
         if (obj.GetComponent<ObjectID>().ID == SpecifiedID)

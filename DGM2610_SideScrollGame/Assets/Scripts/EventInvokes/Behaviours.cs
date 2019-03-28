@@ -5,7 +5,8 @@ using UnityEngine.Events;
 
 public class Behaviours : MonoBehaviour
 {
-    public UnityEvent OnAwake, OnStart, MouseDown, MouseEnter, MouseExit, TriggerEnter, TriggerExit, CollisionEnter, DestroyEvent;
+    public UnityEvent OnAwake, OnStart, MouseDown, MouseEnter, MouseExit,
+     MouseRight, TriggerEnter, TriggerExit, CollisionEnter, DestroyEvent;
     
     
     void Awake()
@@ -31,6 +32,14 @@ public class Behaviours : MonoBehaviour
     private void OnMouseExit()
     {
         MouseExit.Invoke();
+    }
+
+    private void RightClick()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            MouseRight.Invoke();
+        }
     }
     
     private void OnTriggerEnter(Collider other)

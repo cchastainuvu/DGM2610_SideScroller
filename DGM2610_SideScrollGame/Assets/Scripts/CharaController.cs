@@ -22,10 +22,14 @@ public class CharaController : MonoBehaviour
 
     private void FixedUpdate()
     {  
-         _pos.y -= Gravity.value * Time.deltaTime;
          _pos.x = MoveSpeed.value * Time.deltaTime;
 //       _pos.z = 0F;
          _cc.Move(_pos);
+
+        if (!_cc.isGrounded)
+        {
+            _pos.y -= Gravity.value * Time.deltaTime;
+        }
     }
 
     public void Jump()

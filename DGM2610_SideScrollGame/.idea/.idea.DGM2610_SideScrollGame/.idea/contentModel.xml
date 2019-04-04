@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AutoRunner.cs" t="Include" />
+          <e p="CameraShake.cs" t="Include" />
+          <e p="ChangeTimeScale.cs" t="Include" />
           <e p="CharaController.cs" t="Include" />
           <e p="EventInvokes" t="Include">
             <e p="Behaviours.cs" t="Include" />
@@ -27,6 +29,7 @@
           </e>
           <e p="PlayerRaycastEvent.cs" t="Include" />
           <e p="RigidbodyJump.cs" t="Include" />
+          <e p="SceneMGR.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />

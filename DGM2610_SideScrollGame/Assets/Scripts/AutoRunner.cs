@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 //References: CatLikeCoding, with own generic modification.
@@ -11,5 +12,5 @@ public class AutoRunner : MonoBehaviour
     public void Update()
     {
         transform.Translate(HorizontalSpeed.value * Time.deltaTime, 0F, 0F);
-    }
+    }  
 }

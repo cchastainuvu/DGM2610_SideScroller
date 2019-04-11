@@ -11,7 +11,7 @@ public class CharaController : MonoBehaviour
 
     private Ray _ray;
     private RaycastHit _hit;
-    
+
     public FloatData MoveSpeed, JumpHeight, Gravity;
 
     private void Start()

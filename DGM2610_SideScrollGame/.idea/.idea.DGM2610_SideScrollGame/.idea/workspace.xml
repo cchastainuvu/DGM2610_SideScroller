@@ -11,21 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CharaController.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CharaController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharaController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="210">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
-                <marker date="1554323489577" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554323489577" expanded="true" signature="172:1170" ph="{...}" />
-                <marker date="1554323489577" expanded="true" signature="378:507" ph="{...}" />
-                <marker date="1554323489577" expanded="true" signature="539:756" ph="{...}" />
-                <marker date="1554323489577" expanded="true" signature="676:750" ph="{...}" />
-                <marker date="1554323489577" expanded="true" signature="780:974" ph="{...}" />
-                <marker date="1554323489577" expanded="true" signature="814:967" ph="{...}" />
-                <marker date="1554323489577" expanded="true" signature="1000:1070" ph="{...}" />
-                <marker date="1554323489577" expanded="true" signature="1100:1168" ph="{...}" />
+                <marker date="1554944603196" expanded="true" signature="6:78" ph="..." />
+                <marker date="1554944603196" expanded="true" signature="172:1166" ph="{...}" />
+                <marker date="1554944603196" expanded="true" signature="374:503" ph="{...}" />
+                <marker date="1554944603196" expanded="true" signature="535:752" ph="{...}" />
+                <marker date="1554944603196" expanded="true" signature="672:746" ph="{...}" />
+                <marker date="1554944603196" expanded="true" signature="776:970" ph="{...}" />
+                <marker date="1554944603196" expanded="true" signature="810:963" ph="{...}" />
+                <marker date="1554944603196" expanded="true" signature="996:1066" ph="{...}" />
+                <marker date="1554944603196" expanded="true" signature="1096:1164" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -101,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriggerIDEvents.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TriggerIDEvents.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerIDEvents.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -219,7 +219,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ID/SpecifiedTriggerID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventInvokes/Behaviours.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRaycastEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharaController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AutoRunner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FreezeTimeScale.cs" />
@@ -227,6 +226,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeTimeScale.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyRun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerIDEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharaController.cs" />
       </list>
     </option>
   </component>
@@ -308,12 +308,12 @@
       <workItem from="1554404269919" duration="758000" />
       <workItem from="1554757289989" duration="2055000" />
       <workItem from="1554781031015" duration="592000" />
-      <workItem from="1554941210128" duration="358000" />
+      <workItem from="1554941210128" duration="1289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68450000" />
+    <option name="totallyTimeSpent" value="69381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +326,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -507,24 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharaController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-          <folding>
-            <marker date="1554323489577" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554323489577" expanded="true" signature="172:1170" ph="{...}" />
-            <marker date="1554323489577" expanded="true" signature="378:507" ph="{...}" />
-            <marker date="1554323489577" expanded="true" signature="539:756" ph="{...}" />
-            <marker date="1554323489577" expanded="true" signature="676:750" ph="{...}" />
-            <marker date="1554323489577" expanded="true" signature="780:974" ph="{...}" />
-            <marker date="1554323489577" expanded="true" signature="814:967" ph="{...}" />
-            <marker date="1554323489577" expanded="true" signature="1000:1070" ph="{...}" />
-            <marker date="1554323489577" expanded="true" signature="1100:1168" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraShake.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -611,6 +592,24 @@
             <marker date="1553633101202" expanded="true" signature="923:965" ph="{...}" />
             <marker date="1553633101202" expanded="true" signature="1017:1062" ph="{...}" />
             <marker date="1553633101202" expanded="true" signature="1092:1135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharaController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <marker date="1554944603196" expanded="true" signature="6:78" ph="..." />
+            <marker date="1554944603196" expanded="true" signature="172:1166" ph="{...}" />
+            <marker date="1554944603196" expanded="true" signature="374:503" ph="{...}" />
+            <marker date="1554944603196" expanded="true" signature="535:752" ph="{...}" />
+            <marker date="1554944603196" expanded="true" signature="672:746" ph="{...}" />
+            <marker date="1554944603196" expanded="true" signature="776:970" ph="{...}" />
+            <marker date="1554944603196" expanded="true" signature="810:963" ph="{...}" />
+            <marker date="1554944603196" expanded="true" signature="996:1066" ph="{...}" />
+            <marker date="1554944603196" expanded="true" signature="1096:1164" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -14,6 +14,8 @@ public class CharaController : MonoBehaviour
 
     public FloatData MoveSpeed, JumpHeight, Gravity;
 
+    public Animator PlayerAnimator;
+
     private void Start()
     {
         _cc = GetComponent<CharacterController>();
@@ -23,12 +25,19 @@ public class CharaController : MonoBehaviour
     private void FixedUpdate()
     {  
          _pos.x = MoveSpeed.value * Time.deltaTime;
-//       _pos.z = 0F;
          _cc.Move(_pos);
 
         if (!_cc.isGrounded)
         {
             _pos.y -= Gravity.value * Time.deltaTime;
+            PlayerAnimator.SetBool("Jumping", false);
+            PlayerAnimator.SetBool("Grounded", false);
+        }
+        
+        else if (_cc.isGrounded)
+        {
+            PlayerAnimator.SetBool("Grounded", true);
+            PlayerAnimator.SetBool("Jumping", false);
         }
     }
 
@@ -39,6 +48,8 @@ public class CharaController : MonoBehaviour
                 print("I'm working...");
                 _pos.y = JumpHeight.value * Time.deltaTime;
                 _cc.Move(_pos);
+            
+                PlayerAnimator.SetBool("Jumping", true);
         }
      }
 

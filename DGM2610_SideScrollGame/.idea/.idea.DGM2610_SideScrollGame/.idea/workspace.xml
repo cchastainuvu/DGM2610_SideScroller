@@ -14,18 +14,19 @@
       <file leaf-file-name="CharaController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharaController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="437">
+              <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
               <folding>
-                <marker date="1554944603196" expanded="true" signature="6:78" ph="..." />
-                <marker date="1554944603196" expanded="true" signature="172:1166" ph="{...}" />
-                <marker date="1554944603196" expanded="true" signature="374:503" ph="{...}" />
-                <marker date="1554944603196" expanded="true" signature="535:752" ph="{...}" />
-                <marker date="1554944603196" expanded="true" signature="672:746" ph="{...}" />
-                <marker date="1554944603196" expanded="true" signature="776:970" ph="{...}" />
-                <marker date="1554944603196" expanded="true" signature="810:963" ph="{...}" />
-                <marker date="1554944603196" expanded="true" signature="996:1066" ph="{...}" />
-                <marker date="1554944603196" expanded="true" signature="1096:1164" ph="{...}" />
+                <marker date="1555571725896" expanded="true" signature="6:78" ph="..." />
+                <marker date="1555571725896" expanded="true" signature="172:1530" ph="{...}" />
+                <marker date="1555571725896" expanded="true" signature="411:540" ph="{...}" />
+                <marker date="1555571725896" expanded="true" signature="572:1046" ph="{...}" />
+                <marker date="1555571725896" expanded="true" signature="687:870" ph="{...}" />
+                <marker date="1555571725896" expanded="true" signature="912:1040" ph="{...}" />
+                <marker date="1555571725896" expanded="true" signature="1070:1334" ph="{...}" />
+                <marker date="1555571725896" expanded="true" signature="1104:1327" ph="{...}" />
+                <marker date="1555571725896" expanded="true" signature="1360:1430" ph="{...}" />
+                <marker date="1555571725896" expanded="true" signature="1460:1528" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -309,11 +310,12 @@
       <workItem from="1554757289989" duration="2055000" />
       <workItem from="1554781031015" duration="592000" />
       <workItem from="1554941210128" duration="1289000" />
+      <workItem from="1555566372844" duration="3379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69381000" />
+    <option name="totallyTimeSpent" value="72760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,7 +336,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31208053" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3167785" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -598,18 +600,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharaController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="437">
+          <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
           <folding>
-            <marker date="1554944603196" expanded="true" signature="6:78" ph="..." />
-            <marker date="1554944603196" expanded="true" signature="172:1166" ph="{...}" />
-            <marker date="1554944603196" expanded="true" signature="374:503" ph="{...}" />
-            <marker date="1554944603196" expanded="true" signature="535:752" ph="{...}" />
-            <marker date="1554944603196" expanded="true" signature="672:746" ph="{...}" />
-            <marker date="1554944603196" expanded="true" signature="776:970" ph="{...}" />
-            <marker date="1554944603196" expanded="true" signature="810:963" ph="{...}" />
-            <marker date="1554944603196" expanded="true" signature="996:1066" ph="{...}" />
-            <marker date="1554944603196" expanded="true" signature="1096:1164" ph="{...}" />
+            <marker date="1555571725896" expanded="true" signature="6:78" ph="..." />
+            <marker date="1555571725896" expanded="true" signature="172:1530" ph="{...}" />
+            <marker date="1555571725896" expanded="true" signature="411:540" ph="{...}" />
+            <marker date="1555571725896" expanded="true" signature="572:1046" ph="{...}" />
+            <marker date="1555571725896" expanded="true" signature="687:870" ph="{...}" />
+            <marker date="1555571725896" expanded="true" signature="912:1040" ph="{...}" />
+            <marker date="1555571725896" expanded="true" signature="1070:1334" ph="{...}" />
+            <marker date="1555571725896" expanded="true" signature="1104:1327" ph="{...}" />
+            <marker date="1555571725896" expanded="true" signature="1360:1430" ph="{...}" />
+            <marker date="1555571725896" expanded="true" signature="1460:1528" ph="{...}" />
           </folding>
         </state>
       </provider>

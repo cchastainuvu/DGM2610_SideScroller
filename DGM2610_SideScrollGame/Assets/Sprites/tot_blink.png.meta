@@ -6,6 +6,7 @@ TextureImporter:
     21300002: tot_blink_2
     21300004: tot_blink_3
     21300006: tot_blink_4
+    21300008: tot_blink_0
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -86,13 +87,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tot_blink_1
+      name: tot_blink_0
       rect:
         serializedVersion: 2
-        x: 205
-        y: 1395
-        width: 370
-        height: 468
+        x: 260
+        y: 1431
+        width: 276
+        height: 424
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,7 +101,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 711d0c5e71175a24fb584dcae54cffcd
+      spriteID: 9718a89180ea5304f89f8c1dd8f84e52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tot_blink_1
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1427
+        width: 277
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf36c540e4c41964a8d8cb0e4f3ba6e5
       vertices: []
       indices: 
       edges: []
@@ -109,10 +130,10 @@ TextureImporter:
       name: tot_blink_2
       rect:
         serializedVersion: 2
-        x: 824
-        y: 1399
-        width: 361
-        height: 464
+        x: 255
+        y: 788
+        width: 276
+        height: 425
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +141,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eccc3cf986b972246a68f95b86f5abcd
+      spriteID: 1c64a9a2160bf6444b66cca71848997f
       vertices: []
       indices: 
       edges: []
@@ -129,10 +150,10 @@ TextureImporter:
       name: tot_blink_3
       rect:
         serializedVersion: 2
-        x: 215
-        y: 753
-        width: 374
-        height: 485
+        x: 865
+        y: 795
+        width: 276
+        height: 424
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,27 +161,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96d4917ec5d41c84da268f2313db3573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tot_blink_4
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 766
-        width: 332
-        height: 470
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 190e92a483ca79244b2f79f3f617ae81
+      spriteID: 920c62f2eef7ea84aa19a85a45a52872
       vertices: []
       indices: 
       edges: []

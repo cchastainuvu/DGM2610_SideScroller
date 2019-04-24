@@ -55,12 +55,18 @@ public class CharaController : MonoBehaviour
 
     public void Crouch()
     {
-        transform.localScale = new Vector3(1F, 0.5F, 1F);
+        if (_cc.isGrounded)
+        {
+            transform.localScale = new Vector3(1F, 0.5F, 1F);
+            PlayerAnimator.SetBool("Crouching", true);
+        }
+        
     }
 
     public void ResetScale()
     {
         transform.localScale = new Vector3(1F, 1F, 1F);
+        PlayerAnimator.SetBool("Crouching", false);
     }
 }
 

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(CharacterController))]
 public class CharaController : MonoBehaviour
@@ -16,12 +17,16 @@ public class CharaController : MonoBehaviour
 
     public Animator PlayerAnimator;
 
+    public AudioSource RunAudio, JumpAudio, CrouchAudio;
+    
     private void Start()
     {
         _cc = GetComponent<CharacterController>();
         _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        
+        RunAudio.Play();
     }
-
+    
     private void FixedUpdate()
     {  
          _pos.x = MoveSpeed.value * Time.deltaTime;
@@ -50,6 +55,10 @@ public class CharaController : MonoBehaviour
                 _cc.Move(_pos);
             
                 PlayerAnimator.SetBool("Jumping", true);
+            
+                RunAudio.Pause();
+                CrouchAudio.Pause();
+                JumpAudio.Play();
         }
      }
 
@@ -59,14 +68,20 @@ public class CharaController : MonoBehaviour
         {
             transform.localScale = new Vector3(1F, 0.5F, 1F);
             PlayerAnimator.SetBool("Crouching", true);
+            
+            RunAudio.Pause();
+            JumpAudio.Pause();
+            
+            CrouchAudio.Play();
         }
-        
     }
 
     public void ResetScale()
     {
         transform.localScale = new Vector3(1F, 1F, 1F);
         PlayerAnimator.SetBool("Crouching", false);
+        
+        CrouchAudio.Pause();
     }
 }
 

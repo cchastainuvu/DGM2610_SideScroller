@@ -21,6 +21,7 @@
           </e>
           <e p="Knockback.cs" t="Include" />
           <e p="MyTools" t="Include">
+            <e p="AudioChanger.cs" t="Include" />
             <e p="CC" t="Include">
               <e p="CharacterMove.cs" t="Include" />
               <e p="MovePattern.cs" t="Include" />

@@ -23,10 +23,8 @@ public class CharaController : MonoBehaviour
     {
         _cc = GetComponent<CharacterController>();
         _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        
-        RunAudio.Play();
     }
-    
+  
     private void FixedUpdate()
     {  
          _pos.x = MoveSpeed.value * Time.deltaTime;
@@ -43,9 +41,14 @@ public class CharaController : MonoBehaviour
         {
             PlayerAnimator.SetBool("Grounded", true);
             PlayerAnimator.SetBool("Jumping", false);
+
+            if (!RunAudio.isPlaying && !CrouchAudio.isPlaying)
+            {
+                RunAudio.Play();
+            }
         }
     }
-
+    
     public void Jump()
     {
         if (_cc.isGrounded)
@@ -60,6 +63,8 @@ public class CharaController : MonoBehaviour
                 CrouchAudio.Pause();
                 JumpAudio.Play();
         }
+        
+        
      }
 
     public void Crouch()
@@ -74,6 +79,8 @@ public class CharaController : MonoBehaviour
             
             CrouchAudio.Play();
         }
+        
+        
     }
 
     public void ResetScale()

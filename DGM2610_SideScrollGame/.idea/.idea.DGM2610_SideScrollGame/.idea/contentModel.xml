@@ -12,6 +12,7 @@
           <e p="ChangeTimeScale.cs" t="Include" />
           <e p="CharaController.cs" t="Include" />
           <e p="EnemyRun.cs" t="Include" />
+          <e p="EscapeMenu.cs" t="Include" />
           <e p="EventInvokes" t="Include">
             <e p="Behaviours.cs" t="Include" />
           </e>
